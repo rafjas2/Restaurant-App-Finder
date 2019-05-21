@@ -1,0 +1,285 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+#wrap {
+  font-family: "Roboto Slab", serif;
+  color: #000;
+}
+
+span {
+  font-family: "Lobster", cursive;
+}
+
+.navbar {
+  background-color: #058383;
+}
+.hamburger {
+  font-size: 30px;
+  line-height: 30px;
+  color: #fff;
+}
+
+nav > .navbar-brand {
+  font-family: "Lobster", cursive;
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+nav > .navbar-brand:hover {
+  color: #fff;
+}
+
+nav .navbar-nav li a {
+  font-size: 20px;
+  color: #fff !important;
+  text-align: center;
+  line-height: 30px;
+}
+
+nav .navbar-nav li a:hover {
+  color: #990606 !important;
+}
+
+.backgroundImg {
+  background-image: url(/img/restaurant.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100vw;
+}
+
+.box-opc {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 100px 0 40px;
+}
+.box-center {
+  padding: 15% 0 0;
+}
+
+.img-phone {
+  margin: auto 0;
+  width: 180px;
+}
+
+.box-center h1 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.paragraph {
+  font-size: 25px;
+  color: #02d3d3;
+  font-weight: 900;
+  margin: auto 5%;
+  padding: 2% 0 5% 0;
+}
+.googlePlay,
+.appStore {
+  width: 120px;
+  cursor: pointer;
+  margin: 10px;
+  border: 3px solid #fff;
+  border-radius: 20px;
+}
+
+.googlePlay:hover,
+.appStore:hover {
+  border-color: #02d3d3;
+}
+
+/* ============================================================== */
+
+.header {
+  font-family: "Lobster", cursive;
+  font-size: 250%;
+}
+
+#about,
+#features {
+  padding: 70px 0;
+}
+
+#about {
+  background-color: #ded797;
+}
+
+#about p {
+  text-align: justify;
+  font-size: 120%;
+  padding: 30px 5% 0;
+}
+
+#features {
+  background-color: lightskyblue;
+}
+
+#features .row {
+  margin: 0;
+  padding: 40px 0;
+}
+
+.features-box i {
+  font-size: 300%;
+  color: #ff6666;
+  padding: 30px 0 0;
+}
+
+.features-box h3 {
+  font-size: 21px;
+  font-weight: 900;
+  padding: 30px 0 0;
+}
+
+#contact {
+  background-color: #009999;
+  padding: 40px 0 10px;
+}
+
+#contact i {
+  font-size: 300%;
+  color: #990606;
+  padding: 30px 5% 0;
+}
+#contact i:hover {
+  color: #b84a4a;
+}
+#contact h4 {
+  font-size: 100%;
+  padding: 40px 5% 0;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .box-center h1 {
+    font-size: 25px;
+    font-weight: 900;
+  }
+
+  .paragraph {
+    font-size: 18px;
+    color: #02d3d3;
+    font-weight: 900;
+    padding: 0 0 10px;
+  }
+  .googlePlay,
+  .appStore {
+    width: 100px;
+    cursor: pointer;
+    margin: 5%;
+    border: 2px solid #fff;
+    border-radius: 20px;
+  }
+  .img-phone {
+    width: 180px;
+  }
+
+  .features-box h3 {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 30px 0 0;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .box-center h1 {
+    font-size: 25px;
+    font-weight: 900;
+  }
+
+  .paragraph {
+    font-size: 21px;
+    color: #02d3d3;
+    font-weight: 900;
+    padding: 0 0 10px;
+  }
+  .googlePlay,
+  .appStore {
+    width: 130px;
+    cursor: pointer;
+    margin: 5%;
+    border: 2px solid #fff;
+    border-radius: 20px;
+  }
+  .img-phone {
+    width: 200px;
+  }
+
+  .features-box h3 {
+    font-size: 21px;
+    font-weight: 900;
+    padding: 30px 0 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .box-center h1 {
+    font-size: 33px;
+    font-weight: 900;
+  }
+
+  .paragraph {
+    font-size: 25px;
+    color: #02d3d3;
+    font-weight: 900;
+    padding: 0 0 10px;
+  }
+  .googlePlay,
+  .appStore {
+    width: 160px;
+    cursor: pointer;
+    margin: 5%;
+    border: 2px solid #fff;
+    border-radius: 20px;
+  }
+  .img-phone {
+    width: 220px;
+  }
+
+  .features-box h3 {
+    font-size: 16px;
+    font-weight: 900;
+    padding: 30px 0 0;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .box-center h1 {
+    font-size: 35px;
+    font-weight: 900;
+  }
+
+  .paragraph {
+    font-size: 30px;
+    color: #02d3d3;
+    font-weight: 900;
+    padding: 0 0 10px;
+  }
+  .googlePlay,
+  .appStore {
+    width: 200px;
+    cursor: pointer;
+    margin: 5%;
+    border: 2px solid #fff;
+    border-radius: 20px;
+  }
+  .img-phone {
+    width: 300px;
+  }
+
+  .features-box h3 {
+    font-size: 21px;
+    font-weight: 900;
+    padding: 30px 0 0;
+  }
+}
