@@ -15,7 +15,7 @@ html {
 span {
   font-family: "Lobster", cursive;
 }
-
+/* ==================Navigation============== */
 .navbar {
   background-color: #058383;
 }
@@ -47,6 +47,14 @@ nav .navbar-nav li a:hover {
   color: #990606 !important;
 }
 
+/* ================Backgroung Image Section================= */
+
+#top .col-sm-6,
+#top .col-md-6,
+#top .col-bg-3,
+#top .col-xl-3 {
+  padding: auto 0;
+}
 .backgroundImg {
   background-image: url(/img/restaurant.jpg);
   background-size: cover;
@@ -57,15 +65,16 @@ nav .navbar-nav li a:hover {
 
 .box-opc {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 100px 0 40px;
-}
-.box-center {
-  padding: 15% 0 0;
+  padding: 100px 30px 40px;
 }
 
 .img-phone {
   margin: auto 0;
   width: 180px;
+}
+
+.box-center {
+  padding: 15% 0 0;
 }
 
 .box-center h1 {
@@ -75,7 +84,7 @@ nav .navbar-nav li a:hover {
 }
 
 .paragraph {
-  font-size: 25px;
+  font-size: 22px;
   color: #02d3d3;
   font-weight: 900;
   margin: auto 5%;
@@ -99,12 +108,12 @@ nav .navbar-nav li a:hover {
 
 .header {
   font-family: "Lobster", cursive;
-  font-size: 250%;
+  font-size: 40px;
 }
 
 #about,
 #features {
-  padding: 70px 0;
+  padding: 70px 10%;
 }
 
 #about {
@@ -112,9 +121,9 @@ nav .navbar-nav li a:hover {
 }
 
 #about p {
-  text-align: justify;
+  text-align: center;
   font-size: 120%;
-  padding: 30px 5% 0;
+  padding: 30px 0 0;
 }
 
 #features {
@@ -140,38 +149,38 @@ nav .navbar-nav li a:hover {
 
 #contact {
   background-color: #009999;
-  padding: 40px 0 10px;
+  padding: 40px 30px 10px;
 }
 
 #contact i {
   font-size: 300%;
   color: #990606;
-  padding: 30px 5% 0;
+  padding: 30px 4% 0;
 }
 #contact i:hover {
   color: #b84a4a;
 }
 #contact h4 {
   font-size: 100%;
-  padding: 40px 5% 0;
+  padding: 40px 0 0;
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .box-center h1 {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 900;
   }
 
   .paragraph {
-    font-size: 18px;
+    font-size: 20px;
     color: #02d3d3;
     font-weight: 900;
     padding: 0 0 10px;
   }
   .googlePlay,
   .appStore {
-    width: 100px;
+    width: 110px;
     cursor: pointer;
     margin: 5%;
     border: 2px solid #fff;
@@ -191,26 +200,26 @@ nav .navbar-nav li a:hover {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .box-center h1 {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 900;
   }
 
   .paragraph {
-    font-size: 21px;
+    font-size: 19px;
     color: #02d3d3;
     font-weight: 900;
     padding: 0 0 10px;
   }
   .googlePlay,
   .appStore {
-    width: 130px;
+    width: 120px;
     cursor: pointer;
     margin: 5%;
     border: 2px solid #fff;
     border-radius: 20px;
   }
   .img-phone {
-    width: 200px;
+    width: 190px;
   }
 
   .features-box h3 {
@@ -223,7 +232,7 @@ nav .navbar-nav li a:hover {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .box-center h1 {
-    font-size: 33px;
+    font-size: 31px;
     font-weight: 900;
   }
 
@@ -235,7 +244,7 @@ nav .navbar-nav li a:hover {
   }
   .googlePlay,
   .appStore {
-    width: 160px;
+    width: 140px;
     cursor: pointer;
     margin: 5%;
     border: 2px solid #fff;
@@ -243,6 +252,10 @@ nav .navbar-nav li a:hover {
   }
   .img-phone {
     width: 220px;
+  }
+
+  #about p {
+    font-size: 20px;
   }
 
   .features-box h3 {
@@ -255,7 +268,7 @@ nav .navbar-nav li a:hover {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .box-center h1 {
-    font-size: 35px;
+    font-size: 33px;
     font-weight: 900;
   }
 
@@ -275,6 +288,11 @@ nav .navbar-nav li a:hover {
   }
   .img-phone {
     width: 300px;
+  }
+
+  #about p {
+    padding: 0 10%;
+    font-size: 20px;
   }
 
   .features-box h3 {
