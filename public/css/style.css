@@ -116,9 +116,12 @@ nav .navbar-nav li a:hover {
   font-size: 40px;
 }
 
-#about,
+#about {
+  padding: 70px 10% 0;
+}
+
 #features {
-  padding: 70px 10%;
+  padding: 54px 10% 0;
 }
 
 #about p {
@@ -149,6 +152,7 @@ nav .navbar-nav li a:hover {
 #contact {
   background-color: #058383;
   padding: 40px 30px 10px;
+  margin: 40px 0 0 0;
 }
 
 #contact i {
