@@ -78,7 +78,7 @@ nav .navbar-nav li a:hover {
 }
 
 .box-center {
-  padding: 15% 0 0;
+  padding: 10% 0 0;
 }
 
 .box-center h1 {
@@ -205,6 +205,10 @@ nav .navbar-nav li a:hover {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .box-center {
+    padding: 17% 0 0;
+  }
+
   .box-center h1 {
     font-size: 23px;
     font-weight: 900;
@@ -236,6 +240,10 @@ nav .navbar-nav li a:hover {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .box-center {
+    padding: 13% 0 0;
+  }
+
   .box-center h1 {
     font-size: 31px;
     font-weight: 900;
@@ -273,6 +281,10 @@ nav .navbar-nav li a:hover {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .box-center {
+    padding: 12% 0 0;
+  }
+
   .box-center h1 {
     font-size: 33px;
     font-weight: 900;
