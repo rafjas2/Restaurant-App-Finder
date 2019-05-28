@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *:before,
 *:after {
@@ -15,10 +16,12 @@ html {
 span {
   font-family: "Lobster", cursive;
 }
+
 /* ==================Navigation============== */
 .navbar {
   background-color: #058383;
 }
+
 .hamburger {
   font-size: 30px;
   line-height: 30px;
@@ -55,6 +58,7 @@ nav .navbar-nav li a:hover {
 #top .col-xl-3 {
   padding: auto 0;
 }
+
 .backgroundImg {
   background-image: url(/img/restaurant.jpg);
   background-size: cover;
@@ -90,6 +94,7 @@ nav .navbar-nav li a:hover {
   margin: auto 5%;
   padding: 2% 0 5% 0;
 }
+
 .googlePlay,
 .appStore {
   width: 120px;
@@ -104,7 +109,7 @@ nav .navbar-nav li a:hover {
   border-color: #02d3d3;
 }
 
-/* ============================================================== */
+/* ========================== About and Features Section ==================================== */
 
 .header {
   font-family: "Lobster", cursive;
@@ -116,18 +121,10 @@ nav .navbar-nav li a:hover {
   padding: 70px 10%;
 }
 
-#about {
-  background-color: #ded797;
-}
-
 #about p {
   text-align: center;
   font-size: 120%;
   padding: 30px 0 0;
-}
-
-#features {
-  background-color: lightskyblue;
 }
 
 #features .row {
@@ -147,8 +144,10 @@ nav .navbar-nav li a:hover {
   padding: 30px 0 0;
 }
 
+/* ======================= Contact Section ================== */
+
 #contact {
-  background-color: #009999;
+  background-color: #058383;
   padding: 40px 30px 10px;
 }
 
@@ -157,9 +156,11 @@ nav .navbar-nav li a:hover {
   color: #990606;
   padding: 30px 4% 0;
 }
+
 #contact i:hover {
   color: #b84a4a;
 }
+
 #contact h4 {
   font-size: 100%;
   padding: 40px 0 0;
@@ -174,10 +175,10 @@ nav .navbar-nav li a:hover {
 
   .paragraph {
     font-size: 20px;
-    color: #02d3d3;
     font-weight: 900;
     padding: 0 0 10px;
   }
+
   .googlePlay,
   .appStore {
     width: 110px;
@@ -186,6 +187,7 @@ nav .navbar-nav li a:hover {
     border: 2px solid #fff;
     border-radius: 20px;
   }
+
   .img-phone {
     width: 180px;
   }
@@ -206,7 +208,6 @@ nav .navbar-nav li a:hover {
 
   .paragraph {
     font-size: 19px;
-    color: #02d3d3;
     font-weight: 900;
     padding: 0 0 10px;
   }
@@ -238,10 +239,10 @@ nav .navbar-nav li a:hover {
 
   .paragraph {
     font-size: 25px;
-    color: #02d3d3;
     font-weight: 900;
     padding: 0 0 10px;
   }
+
   .googlePlay,
   .appStore {
     width: 140px;
@@ -250,6 +251,7 @@ nav .navbar-nav li a:hover {
     border: 2px solid #fff;
     border-radius: 20px;
   }
+
   .img-phone {
     width: 220px;
   }
@@ -274,10 +276,10 @@ nav .navbar-nav li a:hover {
 
   .paragraph {
     font-size: 30px;
-    color: #02d3d3;
     font-weight: 900;
     padding: 0 0 10px;
   }
+
   .googlePlay,
   .appStore {
     width: 200px;
@@ -286,6 +288,7 @@ nav .navbar-nav li a:hover {
     border: 2px solid #fff;
     border-radius: 20px;
   }
+
   .img-phone {
     width: 300px;
   }
