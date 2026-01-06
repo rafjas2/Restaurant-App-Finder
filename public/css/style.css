@@ -1,11 +1,7 @@
-html {
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
 }
 
 #wrap {
@@ -28,14 +24,14 @@ span {
   color: #fff;
 }
 
-nav > .navbar-brand {
+nav>.navbar-brand {
   font-family: "Lobster", cursive;
   color: #fff;
   font-size: 30px;
   line-height: 30px;
 }
 
-nav > .navbar-brand:hover {
+nav>.navbar-brand:hover {
   color: #fff;
 }
 
@@ -50,13 +46,13 @@ nav .navbar-nav li a:hover {
   color: #990606 !important;
 }
 
-/* ================Backgroung Image Section================= */
+/* ================Background Image Section================= */
 
 #top .col-sm-6,
 #top .col-md-6,
 #top .col-bg-3,
 #top .col-xl-3 {
-  padding: auto 0;
+  padding: 0;
 }
 
 .backgroundImg {
@@ -64,21 +60,25 @@ nav .navbar-nav li a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 100vw;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .box-opc {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 100px 30px 40px;
+  padding: 40px 30px 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .img-phone {
   margin: auto 0;
-  width: 180px;
+  width: 120px;
 }
 
 .box-center {
-  padding: 10% 0 0;
+  padding: 0;
 }
 
 .box-center h1 {
@@ -205,9 +205,7 @@ nav .navbar-nav li a:hover {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .box-center {
-    padding: 17% 0 0;
-  }
+
 
   .box-center h1 {
     font-size: 23px;
@@ -219,6 +217,7 @@ nav .navbar-nav li a:hover {
     font-weight: 900;
     padding: 0 0 10px;
   }
+
   .googlePlay,
   .appStore {
     width: 120px;
@@ -227,6 +226,7 @@ nav .navbar-nav li a:hover {
     border: 2px solid #fff;
     border-radius: 20px;
   }
+
   .img-phone {
     width: 190px;
   }
@@ -240,9 +240,7 @@ nav .navbar-nav li a:hover {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .box-center {
-    padding: 13% 0 0;
-  }
+
 
   .box-center h1 {
     font-size: 31px;
@@ -281,9 +279,7 @@ nav .navbar-nav li a:hover {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .box-center {
-    padding: 12% 0 0;
-  }
+
 
   .box-center h1 {
     font-size: 33px;
